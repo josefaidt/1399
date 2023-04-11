@@ -16,5 +16,12 @@
       "providerPlugin": "awscloudformation",
       "service": "AppSync"
     }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "lastPushTimeStamp": "2023-04-11T23:05:45.542Z",
+      "service": "amplifyhosting",
+      "type": "cicd"
+    }
   }
 }

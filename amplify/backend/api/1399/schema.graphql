@@ -5,5 +5,5 @@ enum TodoStatus {
 
 type Todo @model {
   name: String! @primaryKey(sortKeyFields: ["status"])
-  status: TodoStatus @default(value: "ACTIVE")
+  status: TodoStatus!
 }
