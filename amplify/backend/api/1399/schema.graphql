@@ -16,3 +16,5 @@ type Todo2 @model {
 type Todo3 @model {
   name: String! @primaryKey
 }
+
+# arbitrary change
