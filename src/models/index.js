@@ -7,11 +7,13 @@ const TodoStatus = {
   "COMPLETED": "COMPLETED"
 };
 
-const { Todo, Todo2, Todo3 } = initSchema(schema);
+const { Todo, Todo2, Todo3, Post, PostNode } = initSchema(schema);
 
 export {
   Todo,
   Todo2,
   Todo3,
+  Post,
+  PostNode,
   TodoStatus
 };
