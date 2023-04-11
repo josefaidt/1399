@@ -7,9 +7,11 @@ const TodoStatus = {
   "COMPLETED": "COMPLETED"
 };
 
-const { Todo } = initSchema(schema);
+const { Todo, Todo2, Todo3 } = initSchema(schema);
 
 export {
   Todo,
+  Todo2,
+  Todo3,
   TodoStatus
 };
