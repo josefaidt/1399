@@ -3,19 +3,19 @@ enum TodoStatus {
   COMPLETED
 }
 
-type Todo @model {
-  name: String! @primaryKey(sortKeyFields: ["status"])
-  status: TodoStatus!
-}
+# type Todo @model {
+#   name: String! @primaryKey(sortKeyFields: ["status"])
+#   status: TodoStatus!
+# }
 
-type Todo2 @model {
-  name: String! @primaryKey(sortKeyFields: ["status"])
-  status: String!
-}
+# type Todo2 @model {
+#   name: String! @primaryKey(sortKeyFields: ["status"])
+#   status: String!
+# }
 
-type Todo3 @model {
-  name: String! @primaryKey
-}
+# type Todo3 @model {
+#   name: String! @primaryKey
+# }
 
 type Post @model {
   postId: ID! @primaryKey
