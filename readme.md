@@ -22,3 +22,16 @@ TypeError: Cannot read property 'primaryKeyInfo' of undefined
     at /snapshot/repo/build/node_modules/@graphql-codegen/core/cjs/execute-plugin.js:36:54
     at /snapshot/repo/build/node_modules/@graphql-codegen/core/node_modules/@graphql-codegen/plugin-helpers/cjs/profiler.js:7:49
 ```
+
+```graphql
+type Post @model {
+  postId: ID! @primaryKey
+  node: PostNode! @belongsTo(fields: ["postId"])
+  title: String!
+}
+
+type PostNode @model {
+  id: ID!
+  post: Post! @hasOne
+}
+```
