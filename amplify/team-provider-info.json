@@ -17,6 +17,9 @@
           "appId": "d2q8perdoauu1x",
           "type": "cicd"
         }
+      },
+      "api": {
+        "1399": {}
       }
     }
   }
