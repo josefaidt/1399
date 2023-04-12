@@ -9,7 +9,7 @@
 Learn more about "@auth" authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
 ✅ GraphQL schema compiled successfully.
 
-Edit your schema at /Users/josefai/Documents/projects/aws-amplify/reproductions/1399/amplify/backend/api/1399/schema.graphql or place .graphql files in a directory at /Users/josefai/Documents/projects/aws-amplify/reproductions/1399/amplify/backend/api/1399/schema
+Edit your schema at /Users/josef/Documents/projects/aws-amplify/reproductions/1399/amplify/backend/api/1399/schema.graphql or place .graphql files in a directory at /Users/josef/Documents/projects/aws-amplify/reproductions/1399/amplify/backend/api/1399/schema
 Cannot read property 'primaryKeyInfo' of undefined
 TypeError: Cannot read property 'primaryKeyInfo' of undefined
     at AppSyncModelIntrospectionVisitor.generateModelPrimaryKeyInfo (/snapshot/repo/build/node_modules/@aws-amplify/appsync-modelgen-plugin/lib/visitors/appsync-model-introspection-visitor.js:134:67)
